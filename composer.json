@@ -1,6 +1,6 @@
 {
-    "name": "joelbutcher/socialstream",
-    "description": "Get started with OAuth and Laravel",
+    "name": "bursteri/socialstream",
+    "description": "OAuth for Laravel, simplified. Fork of joelbutcher/socialstream with Laravel 13 support.",
     "keywords": [
         "socialstream",
         "laravel",
@@ -9,18 +9,23 @@
     ],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/joelbutcher/socialstream/issues",
-        "source": "https://github.com/joelbutcher/socialstream"
+        "issues": "https://github.com/bursteri/socialstream/issues",
+        "source": "https://github.com/bursteri/socialstream"
     },
     "authors": [
         {
             "name": "Joel Butcher",
-            "email": "joel@joelbutcher.co.uk"
+            "email": "joel@joelbutcher.co.uk",
+            "role": "Original Author"
+        },
+        {
+            "name": "Robin He",
+            "role": "Maintainer"
         }
     ],
     "require": {
-        "php": "^8.2",
-        "illuminate/contracts": "^11.0|^12.0",
+        "php": "^8.3",
+        "illuminate/contracts": "^11.0|^12.0|^13.0",
         "laravel/socialite": "^5.18"
     },
     "require-dev": {
@@ -30,11 +35,11 @@
         "laravel/sanctum": "^4.0",
         "livewire/livewire": "^3.5.0",
         "mockery/mockery": "^1.6",
-        "orchestra/testbench": "^9.0|^10.0",
-        "orchestra/testbench-core": "^9.9.1|^10.0",
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "orchestra/testbench-core": "^9.9.1|^10.0|^11.0",
         "pestphp/pest": "^2.0|^3.0",
         "pestphp/pest-plugin-laravel": "^2.2|^3.0",
-        "phpunit/phpunit": "^10.5.35|^11.5.3|^12.0.1"
+        "phpunit/phpunit": "^10.5.35|^11.5.3|^12.0.1|^13.0"
     },
     "autoload": {
         "psr-4": {
@@ -53,7 +58,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "6.x-dev"
+            "dev-main": "7.x-dev"
         },
         "laravel": {
             "providers": [
